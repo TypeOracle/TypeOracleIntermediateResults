@@ -1,0 +1,85 @@
+ambiguous description (36)
+this.Collab.documentToStream
+this.Net.Discovery.queryServices
+this.SOAP.queryServices
+this.XMLData.parse
+this.addAnnot
+this.addField
+this.app.alert
+this.app.clearInterval
+this.app.clearTimeOut
+this.app.execDialog
+this.app.formsVersion
+this.app.fs.backgroundColor
+this.app.popUpMenu
+this.app.popUpMenuEx
+this.app.runtimeHighlightColor
+this.app.toolbar
+this.app.trustPropagatorFunction
+this.app.trustedFunction
+this.getLinks
+this.getOCGs
+this.security.getHandler
+this.spell.check
+this.spell.checkText
+this.spell.checkWord
+this.spellDictionaryOrder
+this.spellLanguageOrder
+this.tts.soundCues
+this.tts.speechCues
+this.util.crackURL
+this.util.iconStreamFromIcon
+this.util.printd
+this.util.printf
+this.util.scand
+this.util.spansToXML
+this.util.xmlToSpans
+this.viewState
+
+
+
+
+incomplete parameter list (13)
+
+this.closeDoc
+- Manual lack key: rsvd1, type boolean
+
+Doc.saveAs
+- Manual lack key: cUsageRights, type string
+- Manual lack key: bSaveAsReadOnly, type boolean
+
+Doc.resetForm
+- Manual incomplete key: aFields, lack type string
+
+this.app.addMenuItem
+- TypeOracle lack key: nPos, type number
+
+this.exportAsFDF
+- TypeOracle lack key: aFields, type array
+- TypeOracle lack key: cPath, type string
+
+this.exportAsText
+- TypeOracle lack key: aFields, type array
+- TypeOracle lack key: cPath, type string
+
+this.exportAsXFDF
+- TypeOracle lack key: aFields, type array
+- TypeOracle lack key: cPath, type string
+
+this.exportDataObject
+- TypeOracle lack key: cDIPath, type string
+
+this.extractPages
+- TypeOracle lack key: cPath, type string
+
+this.getURL
+- TypeOracle lack key: bAppend, type boolean
+
+this.global.subscribe
+- TypeOracle lack key: fCallback, type built-in object
+
+method json-json: this.spawnPageFromTemplate
+- TypeOracle lack key: oXObject, type built-in object
+
+method json-json: this.submitForm
+- TypeOracle lack key: cPassword, type string

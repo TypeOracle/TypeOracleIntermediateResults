@@ -1,0 +1,101 @@
+diff in # of parameters (37)
+this.SOAP.queryServices
+- diff in arg length: Adobe - 3 , Foxit - 0
+this.SOAP.resolveService
+- diff in arg length: Adobe - 4 , Foxit - 0
+this.SOAP.streamDecode
+- diff in arg length: Adobe - 2 , Foxit - 0
+this.SOAP.stringFromStream
+- diff in arg length: Adobe - 1 , Foxit - 0
+this.addAnnot
+- diff in arg length: Adobe - 2 , Foxit - 41
+this.app.addMenuItem
+- diff in arg length: Adobe - 7 , Foxit - 8
+this.app.alert
+- diff in arg length: Adobe - 6 , Foxit - 4
+this.app.browseForDoc
+- diff in arg length: Adobe - 6 , Foxit - 0
+this.app.execDialog
+- diff in arg length: Adobe - 1 , Foxit - 0
+this.app.execMenuItem
+- diff in arg length: Adobe - 2 , Foxit - 1
+this.app.findComponent
+- diff in arg length: Adobe - 6 , Foxit - 0
+this.app.openDoc
+- diff in arg length: Adobe - 6 , Foxit - 2
+this.app.popUpMenu
+- diff in arg length: Adobe - 4 , Foxit - 1
+this.app.setInterval
+- diff in arg length: Adobe - 3 , Foxit - 2
+this.app.setTimeOut
+- diff in arg length: Adobe - 3 , Foxit - 0
+this.deletePages
+- diff in arg length: Adobe - 2 , Foxit - 0
+this.exportAsFDF
+- diff in arg length: Adobe - 5 , Foxit - 7
+this.exportAsText
+- diff in arg length: Adobe - 3 , Foxit - 7
+this.exportAsXFDF
+- diff in arg length: Adobe - 4 , Foxit - 7
+this.exportAsXFDFStr
+- diff in arg length: Adobe - 6 , Foxit - 7
+this.exportDataObject
+- diff in arg length: Adobe - 3 , Foxit - 2
+this.extractPages
+- diff in arg length: Adobe - 2 , Foxit - 0
+this.getAnnot3D
+- diff in arg length: Adobe - 2 , Foxit - 0
+this.getAnnots3D
+- diff in arg length: Adobe - 1 , Foxit - 0
+this.getIcon
+- diff in arg length: Adobe - 1 , Foxit - 0
+this.getLinks
+- diff in arg length: Adobe - 2 , Foxit - 0
+this.getPageNthWord
+- diff in arg length: Adobe - 4 , Foxit - 3
+this.getPageNthWordQuads
+- diff in arg length: Adobe - 4 , Foxit - 2
+this.getPageNumWords
+- diff in arg length: Adobe - 4 , Foxit - 1
+this.removeTemplate
+- diff in arg length: Adobe - 1 , Foxit - 0
+this.saveAs
+- diff in arg length: Adobe - 7 , Foxit - 5
+this.search.removeIndex
+- diff in arg length: Adobe - 1 , Foxit - 0
+this.selectPageNthWord
+- diff in arg length: Adobe - 4 , Foxit - 3
+this.spawnPageFromTemplate
+- diff in arg length: Adobe - 4 , Foxit - 2
+this.submitForm
+- diff in arg length: Adobe - 24 , Foxit - 8
+this.util.printd
+- diff in arg length: Adobe - 3 , Foxit - 0
+this.util.scand
+- diff in arg length: Adobe - 0 , Foxit - 2
+
+
+
+diff in parameter types (9)
+this.SOAP.streamDigest
+- ind:0 key:oStream	Adobe: built-in object	Foxit: value
+this.SOAP.streamEncode
+- ind:0 key:oStream	Adobe: built-in object	Foxit: value
+this.app.addSubMenu
+- key:nPos	Adobe: Number	Foxit: String/Number
+this.app.addToolButton
+- key:nPos	Adobe: Number	Foxit: String/Number
+this.app.popUpMenuEx
+- key:bMarked	Adobe: bool	Foxit: String
+- key:cReturn	Adobe: String	Foxit: bool
+- key:bEnabled	Adobe: bool	Foxit: String
+- key:cName	Adobe: String	Foxit: bool
+this.app.response
+- key:cDefault	Adobe: String	Foxit: Array
+this.app.runtimeHighlightColor
+- Adobe: value
+- Foxit: object
+this.getDataObject
+- ind:0	Adobe: String	Foxit: String/Number
+this.scroll
+- ind:1	Adobe: Number	Foxit: value

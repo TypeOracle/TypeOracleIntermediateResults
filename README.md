@@ -19,7 +19,7 @@ VMware WorkStation
  
 # Experimental Data
 
-## Accuracy (Table 1)
+## RQ1_TypeAccuracy (Table 1)
 
 
 ### ErrorMessage
@@ -129,7 +129,22 @@ foxit_sample_result.txt: accuracy log file (the detail of accuracy comparasion)
 1. python cmp_arg.py
 2. the result will show, comparasion detail is in adobe.txt/foxit.txt
 
-## Fuzzing Performance 
+## RQ2_TypeInconsistency (Figure 6)
+
+adobe_doc.txt: APIs present in Adobe API Manual
+
+adobe_undoc.txt: APIs not present in Adobe API Manual
+
+difference_adobe_foxit.txt: the different APIs in Adobe Reader and Foxit Reader, including APIs that are different in parameters and APIs that are different in parameters' types
+
+difference_manual.txt: the different APIs in TypeOracle and Adobe Manual in Adobe's API list, including APIs that have ambiguous description and incomplete parameter
+
+foxit_specific_api.txt: APIs that only implemented in Foxit Reader
+
+share_api.txt: APIs that both implemented in Adobe Reader and Foxit Reader
+
+
+## RQ3_FuzzingPerformance 
 
 Test cases can be downloaded from https://drive.google.com/file/d/1-zrRJrSwe4MVSnTEpeBduga--ZnP1ZHT/view?usp=sharing.
 
@@ -356,7 +371,7 @@ foxit_cooper.pdf: Figure 9(f)
 1. python draw_all.py (matplotlib is needed, pip install matplotlib)
 2. the result will show
 
-## Vulnerabilities (Table 2)
+## RQ4_Vulnerabilities (Table 2)
 
 The PDFs in fuzzing campaign can be downloaded from https://drive.google.com/file/d/1PaDbXew-P-D4wpQ6az3mcykbA89D2a4s/view?usp=sharing.
 
