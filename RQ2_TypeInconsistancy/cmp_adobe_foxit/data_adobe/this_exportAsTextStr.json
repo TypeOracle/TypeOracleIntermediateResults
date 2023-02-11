@@ -1,0 +1,1 @@
+{"api": "this.exportAsTextStr", "apitype": 0, "root": "230", "info": {"230": {"req_key": [], "req_type": [], "opt_key": ["bAllFields", "bNoPassword", "aFields", "bFlags", "cHRef", "bBase64"], "opt_type": ["0", "0", "50", "0", "3", "0"]}, "220": {"req_type": [], "opt_type": ["3", "3", "3", "3"]}, "50": {"typelist": ["3", "220"]}}}

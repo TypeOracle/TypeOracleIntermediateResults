@@ -1,0 +1,1 @@
+{"api": "this.exportAsXFDFStr", "apitype": 0, "root": "230", "info": {"230": {"req_key": ["cHRef"], "req_type": ["3"], "opt_key": ["bAllFields", "bNoPassword", "aFields", "bFlags", "bBase64", "bFlags"], "opt_type": ["0", "0", "50", "0", "0", "0"]}, "220": {"req_type": [], "opt_type": ["3", "3", "3", "3"]}, "50": {"typelist": ["3", "220"]}}}
